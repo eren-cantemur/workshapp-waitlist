@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="fixed bottom-0 py-5 z-30 w-full">
-      <nav className="bg-transparent border-gray-200 px-4 lg:px-6">
+    <header className="fixed bottom-0 bg-gray-900 md:bg-transparent md:py-5 z-30 w-full">
+      <nav className="px-4 lg:px-6">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link href="/" className="flex items-center" passHref>
             <Image
