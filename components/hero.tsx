@@ -34,10 +34,10 @@ export default function Hero() {
   };
 
   return (
-    <div className="isolate overflow-hidden bg-gray-900 px-2 py-60 flex md:h-screen">
+    <div className="isolate sm:flex overflow-hidden bg-gray-900 px-5 h-screen">
       <div className="mx-auto my-auto max-w-7xl">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-2">
-          <dl className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:pt-2">
+        <div className="mx-auto my-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-2">
+          <dl className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:pt-2 order-last sm:order-1">
             <div className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <svg
