@@ -19,7 +19,7 @@ export default async function handler (req: NextApiRequest, res: NextApiResponse
       data,
       {
         headers: {
-          Authorization: `Basic ${process.env.MAILCHIMP_API_KEY}`,
+          Authorization: `Bearer ${process.env.MAILCHIMP_API_KEY}`,
         },
       }
     );
